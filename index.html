@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TransitFlow — Global Freight Forwarding, Cargo & Logistics Ecosystem</title>
+  <meta name="description" content="TransitFlow delivers end-to-end global supply chain solutions: air freight, ocean container shipping, bonded warehousing, and real-time IoT cargo tracking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Dispatch Ticker -->
+  <aside class="top-dispatch-bar">
+    <div class="container dispatch-inner">
+      <div class="dispatch-left">
+        <span class="status-live">🟢 DISPATCH NETWORK ACTIVE</span>
+        <span>Global Emergency Line: +1 (800) 452-FLOW</span>
+        <span>•</span>
+        <span>Singapore & Rotterdam Ports: All Terminals Fluid</span>
+      </div>
+      <div class="dispatch-right">
+        <a href="#tracking">Live Cargo Radar</a>
+        <a href="#quote">Partner Portal</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Navigation Header -->
+  <header class="transit-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-mark">▲</span>
+        <span class="brand-text">TRANSIT<strong>FLOW</strong></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#tracking" class="nav-item">Track Cargo</a>
+        <a href="#quote" class="nav-item">Rate Estimator</a>
+        <a href="#network" class="nav-item">Global Corridors</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-action-group">
+        <a href="#quote" class="btn btn-amber btn-sm">Request a Quote</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop">
+        <div class="cargo-grid-overlay"></div>
+        <div class="ocean-gradient"></div>
+      </div>
+
+      <div class="container hero-layout">
+        <div class="hero-editorial">
+          <div class="kicker-pill">
+            <span class="dot-amber"></span>
+            <span>MULTIMODAL SUPPLY CHAIN INFRASTRUCTURE</span>
+          </div>
+          <h1 class="hero-title">
+            Seamless Global Freight <br>
+            <span class="amber-highlight">Across Oceans & Skies.</span>
+          </h1>
+          <p class="hero-desc">
+            From temperature-sensitive pharmaceutical air charters to 24,000 TEU ultra-large container ocean routes, TransitFlow orchestrates the world's most demanding logistics challenges with millimetric predictability.
+          </p>
+
+          <div class="hero-btn-row">
+            <a href="#tracking" class="btn btn-amber btn-lg">Track Any Shipment</a>
+            <a href="#quote" class="btn btn-navy-outline btn-lg">Instant Freight Calculator</a>
+          </div>
+
+          <div class="hero-kpi-row">
+            <div class="kpi-cell">
+              <strong>140+</strong>
+              <span>Global Ports</span>
+            </div>
+            <div class="kpi-divider"></div>
+            <div class="kpi-cell">
+              <strong>4,200+</strong>
+              <span>Active Vessels & Flights</span>
+            </div>
+            <div class="kpi-divider"></div>
+            <div class="kpi-cell">
+              <strong>99.8%</strong>
+              <span>On-Time Arrival SLA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-widget-side">
+          <!-- Live Fast Tracker Widget -->
+          <div class="quick-tracker-card">
+            <div class="card-head">
+              <span class="tracker-icon">🛰️</span>
+              <div>
+                <h3>Real-Time Cargo Radar</h3>
+                <small>Enter Bill of Lading, Container or Airway Bill</small>
+              </div>
+            </div>
+            <div class="tracker-input-row">
+              <input type="text" value="TF-8842-PACIFIC" id="quickTrackInput" placeholder="e.g. TF-8842-PACIFIC">
+              <button class="btn btn-amber" id="quickTrackBtn">Locate</button>
+            </div>
+            <div class="quick-status-display" id="quickStatusDisplay">
+              <div class="status-chip">IN TRANSIT • PACIFIC CORRIDOR</div>
+              <p>Vessel: <strong>TF EverGrace (Voyage 409E)</strong></p>
+              <div class="port-route">
+                <span>Shanghai (CNSHA)</span> → <span>Rotterdam (NLRTM)</span>
+              </div>
+              <small class="eta-text">Estimated Discharge: Oct 28, 2026 06:00 UTC</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-header">INTEGRATED CAPABILITIES</span>
+          <h2>Comprehensive Supply Chain Services</h2>
+          <p>End-to-end multimodal logistics engineered for enterprise reliability and customs compliance.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon">✈️</div>
+            <h3>Air Freight Expedited</h3>
+            <p>Priority next-flight-out express, temperature-controlled pharma cool-chain, and full aircraft heavy cargo charters.</p>
+            <ul class="service-points">
+              <li>✓ 24-48 hour global airport-to-airport</li>
+              <li>✓ IATA compliant hazardous cargo certified</li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card featured-service">
+            <div class="featured-badge">MOST POPULAR</div>
+            <div class="service-icon">🚢</div>
+            <h3>Ocean Container Freight</h3>
+            <p>Full Container Load (FCL) and Less than Container Load (LCL) consolidated shipping with space guarantees on tier-1 alliances.</p>
+            <ul class="service-points">
+              <li>✓ Direct weekly sailings across Asia, Europe & Americas</li>
+              <li>✓ Real-time automated container telematics</li>
+            </ul>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon">🚛</div>
+            <h3>Cross-Border Road & Rail</h3>
+            <p>Direct inland transport with GPS-monitored fleet, cross-docking facilities, and dedicated intermodal rail corridors.</p>
+            <ul class="service-points">
+              <li>✓ Bonded overland transport in 48 countries</li>
+              <li>✓ Full truckload (FTL) & groupage network</li>
+            </ul>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon">🏭</div>
+            <h3>Smart Warehousing & 3PL</h3>
+            <p>Climate-controlled facilities with AI automated pick-and-pack, API inventory sync, and duty-free bonded storage.</p>
+            <ul class="service-points">
+              <li>✓ 2.4 million sq.ft global storage footprint</li>
+              <li>✓ Same-day B2B & direct-to-consumer fulfillment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real-Time Cargo Journey Tracker -->
+    <section class="tracker-section" id="tracking">
+      <div class="container">
+        <div class="tracker-detailed-box">
+          <div class="tracker-box-head">
+            <span class="sub-header">CARGO TELEMATICS</span>
+            <h2>Global Live Shipment Journey Viewer</h2>
+            <p>Check complete GPS milestones, customs timestamps, and real-time container humidity and temperature sensors.</p>
+          </div>
+
+          <div class="timeline-visual" id="shipmentTimeline">
+            <div class="milestone completed">
+              <div class="milestone-dot">✓</div>
+              <div class="milestone-content">
+                <strong>Cargo Picked Up & Container Sealed</strong>
+                <span>Shanghai Logistics Park • Oct 14, 08:30</span>
+              </div>
+            </div>
+
+            <div class="milestone completed">
+              <div class="milestone-dot">✓</div>
+              <div class="milestone-content">
+                <strong>Customs Export Cleared & Loaded on Vessel</strong>
+                <span>Yangshan Deepwater Port • Oct 16, 14:15</span>
+              </div>
+            </div>
+
+            <div class="milestone active">
+              <div class="milestone-dot pulse">⚓</div>
+              <div class="milestone-content">
+                <strong>Ocean Transit Across Malacca Straits</strong>
+                <span>Current Coordinates: 1°14'N 103°55'E • Speed: 19.4 knots</span>
+              </div>
+            </div>
+
+            <div class="milestone pending">
+              <div class="milestone-dot">○</div>
+              <div class="milestone-content">
+                <strong>Arrival & Discharge at Port of Rotterdam</strong>
+                <span>ETA: Oct 28, 06:00 UTC</span>
+              </div>
+            </div>
+
+            <div class="milestone pending">
+              <div class="milestone-dot">○</div>
+              <div class="milestone-content">
+                <strong>Final Inland Delivery to Distribution Center</strong>
+                <span>ETA: Oct 29, 14:00 CET</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Freight Rate Calculator -->
+    <section class="quote-section" id="quote">
+      <div class="container">
+        <div class="calculator-container">
+          <div class="calc-header-wrap">
+            <span class="sub-header">TRANSPARENT TARIFF ESTIMATOR</span>
+            <h2>Calculate Freight Rate & Transit Time</h2>
+            <p>Select origin, destination, cargo type, and gross payload weight for an immediate spot rate approximation.</p>
+          </div>
+
+          <div class="calc-workbench-grid">
+            <div class="calc-form-side">
+              <div class="calc-field-group">
+                <label>1. Origin Hub</label>
+                <select id="originHub" class="custom-select">
+                  <option value="asia">Shanghai (CNSHA), China</option>
+                  <option value="singapore">Singapore (SGSIN), Singapore</option>
+                  <option value="europe">Hamburg (DEHAM), Germany</option>
+                  <option value="us">Los Angeles (USLAX), United States</option>
+                </select>
+              </div>
+
+              <div class="calc-field-group">
+                <label>2. Destination Hub</label>
+                <select id="destHub" class="custom-select">
+                  <option value="rotterdam">Rotterdam (NLRTM), Netherlands</option>
+                  <option value="dubai">Dubai Jebel Ali (AEDXB), UAE</option>
+                  <option value="newyork">New York / New Jersey (USNYC), USA</option>
+                  <option value="tokyo">Tokyo Port (JPTYO), Japan</option>
+                </select>
+              </div>
+
+              <div class="calc-field-group">
+                <label>3. Shipping Mode</label>
+                <div class="mode-selector-pill" id="freightModes">
+                  <button class="mode-pill active" data-mode="sea" data-rate="2.4" data-days="22">🚢 Ocean FCL</button>
+                  <button class="mode-pill" data-mode="air" data-rate="6.8" data-days="3">✈️ Air Express</button>
+                  <button class="mode-pill" data-mode="rail" data-rate="3.8" data-days="14">🚆 Rail Intermodal</button>
+                </div>
+              </div>
+
+              <div class="calc-field-group">
+                <div class="weight-label-row">
+                  <label>4. Total Payload Weight</label>
+                  <strong id="weightValDisplay">1,200 KG</strong>
+                </div>
+                <input type="range" min="100" max="15000" step="100" value="1200" id="payloadWeightSlider" class="transit-slider">
+              </div>
+            </div>
+
+            <div class="calc-quote-side">
+              <div class="quote-card">
+                <span class="quote-tag">INSTANT SPOT QUOTE</span>
+                <div class="total-quote-price" id="quotePriceDisplay">$2,880</div>
+                <span class="quote-terms">USD • Includes Bunker Adjustment & Terminal Handling</span>
+
+                <div class="quote-breakdown">
+                  <div class="q-row">
+                    <span>Selected Mode:</span>
+                    <strong id="summaryMode">Ocean FCL 40ft</strong>
+                  </div>
+                  <div class="q-row">
+                    <span>Estimated Transit Duration:</span>
+                    <strong id="summaryDuration">~22 Days Port-to-Port</strong>
+                  </div>
+                  <div class="q-row">
+                    <span>Customs Documentation:</span>
+                    <strong>Standard Included</strong>
+                  </div>
+                </div>
+
+                <button class="btn btn-amber btn-block" id="bookShipmentBtn">Lock Rate & Book Vessel Slot</button>
+                <small class="guarantee-caption">🛡️ Backed by TransitFlow 100% Space Guarantee Policy</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrap">
+          <span class="sub-header">ENTERPRISE LOGISTICS ADVISORY</span>
+          <h2>Speak to a Senior Freight Forwarding Director</h2>
+          <p>Whether you require tender negotiation for 500+ TEU annual volume or urgent charter aircraft, our dispatch leads respond in under 15 minutes.</p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="input-grid">
+              <input type="text" placeholder="Full Name & Title" required id="cntName">
+              <input type="email" placeholder="Corporate Email" required id="cntEmail">
+            </div>
+            <div class="input-grid">
+              <input type="text" placeholder="Company Name" required id="cntCompany">
+              <input type="tel" placeholder="Direct Phone" required id="cntPhone">
+            </div>
+            <textarea placeholder="Describe your trade lanes, annual TEU / tonnage volume, and current logistics pain points..." rows="3" id="cntNotes"></textarea>
+            <button type="submit" class="btn btn-amber btn-lg">Submit Enterprise Inquiry</button>
+          </form>
+          <div class="contact-success" id="contactSuccess"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="transit-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="brand-logo">
+          <span class="logo-mark">▲</span>
+          <span class="brand-text">TRANSIT<strong>FLOW</strong></span>
+        </div>
+        <p>Global leader in integrated ocean, air, and multimodal supply chain logistics infrastructure.</p>
+        <p class="copyright">&copy; 2026 TransitFlow Logistics Inc. Curated with engineering precision for <strong>Toxa</strong>.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>SERVICES</h4>
+        <a href="#services">Air Freight Expedited</a>
+        <a href="#services">Ocean Container FCL/LCL</a>
+        <a href="#services">Cold-Chain Logistics</a>
+        <a href="#services">Bonded Warehousing</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>TRADE CORRIDORS</h4>
+        <span>Trans-Pacific (Asia - Americas)</span>
+        <span>Asia - Europe Far East Route</span>
+        <span>Trans-Atlantic Eastbound</span>
+      </div>
+
+      <div class="footer-col">
+        <h4>24/7 DISPATCH</h4>
+        <span>Rotterdam Operations Desk</span>
+        <span>Singapore Maritime Control</span>
+        <span>dispatch@transitflow-cargo.com</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
